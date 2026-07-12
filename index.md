@@ -2,7 +2,7 @@
 layout: home
 title: "Data Chef Blog Home"
 ---
-
+<html>
 <div class="tag-cloud">
   {% assign tags = site.tags | sort %}
   {% for tag in tags %}
@@ -13,3 +13,4 @@ title: "Data Chef Blog Home"
     </a>
   {% endfor %}
 </div>
+</html>
