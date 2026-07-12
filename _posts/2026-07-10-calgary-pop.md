@@ -92,6 +92,6 @@ Transform the data into three normalized tables to build relationships in Tablea
 
 ***
 
-Your datasets are now fully cleaned, normalized, and ready for Tableau.
+Your datasets are now fully cleaned, normalized, and ready for Tableau in [Part 2](({{ site.baseurl }}{% post_url 2026-07-11-calgary-pop %})).
 
 
