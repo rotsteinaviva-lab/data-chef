@@ -11,4 +11,4 @@ tags: [Data Wrangling, OpenRefine, Data Normalization]
 
 # Part 1 - Sourcing and Cleaning Data
 
-Option: Skip this exercise and go directly to [Part 2 - Data Visualization](2026-07-11-calgary-pop). Clean data sets are provided.
+Option: Skip this exercise and go directly to [Part 2 - Data Visualization](2026-07-11-calgary-pop.md). Clean data sets are provided.
