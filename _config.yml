@@ -9,6 +9,9 @@ minimal_mistakes_skin: "dark" # Options: "air", "aqua", "contrast", "dark", "dir
 url: "https://rotsteinaviva-lab.github.io"
 baseurl: "/data-chef"
 
+sass:
+  sass_dir: _sass
+
 defaults:
   
   # _posts
