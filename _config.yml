@@ -1,5 +1,5 @@
 title: Data Chef
-description: Welcome to my new GitHub blog page!
+description: 
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 plugins:
   - jekyll-include-cache
@@ -10,7 +10,7 @@ url: "https://rotsteinaviva-lab.github.io"
 baseurl: "/data-chef"
 
 defaults:
-
+  
   # _posts
   - scope:
       path: "_posts"
