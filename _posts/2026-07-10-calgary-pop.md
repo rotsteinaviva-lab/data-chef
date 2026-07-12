@@ -8,5 +8,5 @@ tags: [Data Wrangling, OpenRefine, Data Normalization]
 
 ---
 
-Option: Skip this exercise and go directly to [Part 2 - Data Visualization]({% post_url 2026-07-11-calgary-pop %}). Clean data sets are provided.
+Option: Skip this exercise and go directly to [Part 2 - Data Visualization]({{ site.baseurl }}{% post_url 2026-07-11-calgary-pop %}). Clean data sets are provided.
 
