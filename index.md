@@ -1,5 +1,3 @@
-yaml
-
 ---
 layout: post
 title: "My Blog Home"
