@@ -7,10 +7,10 @@ title: "Data Chef Blog Home"
     <!-- LEFT COLUMN: ONLY TAGS -->
     <td valign="top" width="180" style="padding-right: 15px; border-right: 1px solid #eaecef;">
       <div style="display: flex; flex-direction: column; gap: 8px;">
-        <a href="/tags/java" style="text-decoration: none; color: #007acc; background: #f1f8ff; padding: 6px 12px; border-radius: 4px; font-size: 14px; font-weight: bold; display: block;">#java</a>
-        <a href="/tags/markdown" style="text-decoration: none; color: #007acc; background: #f1f8ff; padding: 6px 12px; border-radius: 4px; font-size: 14px; font-weight: bold; display: block;">#markdown</a>
-        <a href="/tags/webdev" style="text-decoration: none; color: #007acc; background: #f1f8ff; padding: 6px 12px; border-radius: 4px; font-size: 14px; font-weight: bold; display: block;">#webdev</a>
-        <a href="/tags/css" style="text-decoration: none; color: #007acc; background: #f1f8ff; padding: 6px 12px; border-radius: 4px; font-size: 14px; font-weight: bold; display: block;">#css</a>
+        <a href="/tags/Tableau" style="text-decoration: none; color: #007acc; background: #f1f8ff; padding: 6px 12px; border-radius: 4px; font-size: 14px; font-weight: bold; display: block;">#Tableau</a>
+        <a href="/tags/OpenRefine" style="text-decoration: none; color: #007acc; background: #f1f8ff; padding: 6px 12px; border-radius: 4px; font-size: 14px; font-weight: bold; display: block;">#OpenRefine</a>
+        <a href="/tags/data viz" style="text-decoration: none; color: #007acc; background: #f1f8ff; padding: 6px 12px; border-radius: 4px; font-size: 14px; font-weight: bold; display: block;">#data viz</a>
+        <a href="/tags/data wrangling" style="text-decoration: none; color: #007acc; background: #f1f8ff; padding: 6px 12px; border-radius: 4px; font-size: 14px; font-weight: bold; display: block;">#data wrangling</a>
       </div>
     </td>
 
