@@ -8,7 +8,7 @@ tags: [Data Wrangling, OpenRefine, Data Normalization]
 
 ---
 
-Option: Skip this exercise and go directly to [Part 2 - Data Visualization]({{ site.baseurl }}{% post_url 2026-07-11-calgary-pop %}). Clean data sets are provided.
+Simplified option: Skip this exercise and go directly to [Part 2 - Data Visualization]({{ site.baseurl }}{% post_url 2026-07-11-calgary-pop %}). Clean data sets will be provided.
 
 > Problem Solving Objective: 
 * Visualize Calgary's population growth by sector of the city over 50 years (1968-2019)
