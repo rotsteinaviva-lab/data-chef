@@ -64,6 +64,7 @@ Transform the data into three normalized tables to build relationships in Tablea
     *   Change `CHARLESWOOD/COLLINGWOOD` to `CHARLESWOOD`
     *   Change `SCARBORO/SUNALTA WEST` to `SCARBORO`
     > 🧠 **Data Integrity Reflection:** *We are deliberately flattening compound community names (like changing "CHARLESWOOD/COLLINGWOOD" to "CHARLESWOOD") because our final visual is at the sector level, not the community level. Why is it acceptable to lose granular community precision in this specific project? When would this compromise be considered bad practice?*
+8.  **Drop Temporary Columns:** Delete the temporary `normalized-name` column (the one containing the 130 blanks). Keep the `final-names` column, as it now holds your corrected and standardized values for the final visualization.
 
 ## Phase 3: Map Residual Wards
 
