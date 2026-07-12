@@ -29,7 +29,7 @@ Transform the data into three normalized tables to build relationships in Tablea
 2.  **Table 2 (Sector-Polygon Map):** Sector names paired with spatial polygon data.
 3.  **Table 3 (Population Data):** Historical population data with normalized community names.
 
-> 🧠 **Licensing & Ethics Reflection Prompt:** *Data is a shared public resource, but it comes with strings attached. What are the ethical implications of using civic data without giving proper credit? How does compliance with the Open Government Licence protect your academic credibility and support the "open data" movement that made this project possible?*
+> 🧠 **Licensing & Ethics Reflection:** *Data is a shared public resource, but it comes with strings attached. What are the ethical implications of using civic data without giving proper credit? How does compliance with the Open Government Licence protect your academic credibility and support the "open data" movement that made this project possible?*
 
 ***
 
@@ -38,13 +38,13 @@ Transform the data into three normalized tables to build relationships in Tablea
 ## Phase 1: Prepare Tables 1 & 2 (Community Sectors)
 
 1.  **Download:** Get Dataset 1 in CSV format.
-    > 🧠 **Technical Reflection Prompt:** *Open Calgary offers XLSX formats, but we are choosing CSV. Why are we avoiding XLSX here, and what risk does it pose to long text fields like spatial/polygon data?*
+    > 🧠 **Technical Reflection:** *Open Calgary offers XLSX formats, but we are choosing CSV. Why are we avoiding XLSX here, and what risk does it pose to long text fields like spatial/polygon data?*
 2.  **Import:** Create a new project in OpenRefine with this file.
 3.  **Trim:** Click column dropdowns → **Edit cells** → **Common transformations** → **Trim leading and trailing whitespace** (Apply to all columns).
-    > 🧠 **Data Cleanliness Reflection Prompt:** *Invisible spaces look identical to humans but are completely different strings to a computer. What would happen in Tableau if "Northwest" and "Northwest " tried to link?*
+    > 🧠 **Data Cleanliness Reflection:** *Invisible spaces look identical to humans but are completely different strings to a computer. What would happen in Tableau if "Northwest" and "Northwest " tried to link?*
 4.  **Split:** On the communities column, click **Edit cells** → **Split multi-value cells** (Use a comma as the separator).
 5.  **Fill:** On the sector column, click **Edit cells** → **Fill down** to fill newly created rows.
-    > 🧠 **Data Structure Reflection Prompt:** *Why is the "Fill Down" step critical immediately after splitting multi-value cells? What happens to the structural integrity of our records if we skip it?*
+    > 🧠 **Data Structure Reflection:** *Why is the "Fill Down" step critical immediately after splitting multi-value cells? What happens to the structural integrity of our records if we skip it?*
 6.  **Create Table 1:** Delete the polygon column (**Edit column** → **Remove this column**). Export as CSV (e.g., `clean-sector-community.csv`).
 7.  **Create Table 2:** Re-import the original CSV into a separate project. Delete the communities column (**Edit column** → **Remove this column**). Export as TSV (tab-separated values).
 
@@ -58,12 +58,12 @@ Transform the data into three normalized tables to build relationships in Tablea
     ```grel
     cell.cross("clean-sector-community", "Communities").cells["Communities"].value
     ```
-    > 🧠 **Automation & Replicability Reflection Prompt:** *Instead of visually scanning thousands of rows for mismatches, we are using a relational lookup (`cell.cross`). How does a programmatic approach reduce human error and guarantee that another researcher can replicate your cleaning process exactly?*
+    > 🧠 **Automation & Replicability Reflection:** *Instead of visually scanning thousands of rows for mismatches, we are using a relational lookup (`cell.cross`). How does a programmatic approach reduce human error and guarantee that another researcher can replicate your cleaning process exactly?*
 6.  **Filter Blanks:** Click the `normalized-name` dropdown → **Facet** → **Customized facets** → **Facet by blank**. Click **True** to isolate the 130 unmatched rows.
 7.  **Standardize Compounds:** Duplicate the original community name column, name it `final-names`, and execute find-and-replace transformations:
     *   Change `CHARLESWOOD/COLLINGWOOD` to `CHARLESWOOD`
     *   Change `SCARBORO/SUNALTA WEST` to `SCARBORO`
-    > 🧠 **Data Integrity Reflection Prompt:** *We are deliberately flattening compound community names (like changing "CHARLESWOOD/COLLINGWOOD" to "CHARLESWOOD") because our final visual is at the sector level, not the community level. Why is it acceptable to lose granular community precision in this specific project? When would this compromise be considered bad practice?*
+    > 🧠 **Data Integrity Reflection:** *We are deliberately flattening compound community names (like changing "CHARLESWOOD/COLLINGWOOD" to "CHARLESWOOD") because our final visual is at the sector level, not the community level. Why is it acceptable to lose granular community precision in this specific project? When would this compromise be considered bad practice?*
 
 ## Phase 3: Map Residual Wards
 
@@ -83,6 +83,13 @@ Transform the data into three normalized tables to build relationships in Tablea
 
 3.  **Update Master:** Open your `clean-sector-community.csv` file in Excel.
 4.  **Append:** Manually add these 14 residual ward names as communities alongside their assigned sectors. Match the exact casing used in the historical population file.
+
+  > 🧠 **Data Replication Reflection:** *In Step 4, we transitioned from OpenRefine to manual editing in Excel to append the final 14 rows. What documentation must you keep to ensure that a third party can perfectly duplicate this hybrid workflow? How does a strict "change log" prevent a dataset from becoming a black box?*
+
+***
+
+Your datasets are now fully cleaned, normalized, and ready for Tableau.
+Use code with caution.If you want to prepare your student assessment or deployment next, let me know:Should we add an answer key / grading criteria for these reflection prompts?Do you want a brief Tableau setup guide to show how these three finalized files link?
 
 ***
 
