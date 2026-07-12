@@ -13,8 +13,9 @@ Select a topic below to jump directly to its matching articles:
   {% for tag in sorted_tags %}
     {% assign tag_name = tag.first %}
     {% assign tag_posts = tag.last %}
-    <a href="#{{ tag_name | downcase | slugify }}" class="btn btn--info" style="margin: 0; padding: 5px 12px; font-size: 0.85rem; border-radius: 20px;">
-      {{ tag_name }} <span style="opacity: 0.6; font-size: 0.75rem; margin-left: 3px;">({{ tag_posts.size }})</span>
+    <!-- Increased font-size from 0.85rem to 1.1rem for larger tag pills -->
+    <a href="#{{ tag_name | downcase | slugify }}" class="btn btn--info" style="margin: 0; padding: 6px 16px; font-size: 1.1rem; border-radius: 20px;">
+      {{ tag_name }} <span style="opacity: 0.6; font-size: 0.9rem; margin-left: 3px;">({{ tag_posts.size }})</span>
     </a>
   {% endfor %}
 </div>
@@ -28,13 +29,15 @@ Select a topic below to jump directly to its matching articles:
     {% assign tag_posts = tag.last %}
     
     <div id="{{ tag_name | downcase | slugify }}" style="margin-bottom: 45px; scroll-margin-top: 30px;">
-      <h2 style="border-bottom: 2px solid #7a8288; padding-bottom: 8px; color: #1a2530;">
+      <!-- Increased font-size to 2rem to make category tag headings bigger -->
+      <h2 style="border-bottom: 2px solid #7a8288; padding-bottom: 8px; color: #1a2530; font-size: 2rem;">
         📁 {{ tag_name }}
       </h2>
       <ul style="list-style-type: square; padding-left: 20px;">
         {% for post in tag_posts %}
           <li style="margin-bottom: 10px;">
-            <a href="{{ post.url | relative_url }}" style="font-weight: bold; text-decoration: none; font-size: 1.1rem;">
+            <!-- Decreased font-size from 1.1rem to 0.95rem so post titles are smaller -->
+            <a href="{{ post.url | relative_url }}" style="font-weight: bold; text-decoration: none; font-size: 0.95rem;">
               {{ post.title }}
             </a>
             <span style="color: #888; font-size: 0.85rem; margin-left: 10px;">
