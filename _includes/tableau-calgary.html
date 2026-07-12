@@ -20,3 +20,12 @@
         <param name="language" value="en-US" />
     </object>
 </div>
+
+
+<script type="text/javascript">                    
+    var divEl = document.getElementById('viz_calgary_123');                    
+    var vizEl = divEl.getElementsByTagName('object')[0];                    
+    var scrEl = document.createElement('script');                    
+    scrEl.src = 'https://public.tableau.com/views/CalgarysPopulationbySector1968-2019/CalgarysPopulationbySector1968-2019?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link';                    
+    vizEl.parentNode.insertBefore(scrEl, vizEl);                
+</script>
