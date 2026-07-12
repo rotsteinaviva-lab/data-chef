@@ -26,11 +26,9 @@ Where to start?
 Challenge: Search the listed sites and come up with appropriate data sets for the topic at hand. 
 Suggested search terms: population, historical, sectors, communities (include 'calgary' if searching lunaris)
 
-Data Chef's solution:
-[Dataset 1: Community Sectors](https://data.calgary.ca/Base-Maps/Community-Sectors/mz2j-7eb5/about_data)
-AND
-[Dataset 2: Historical Calgary Community Populations](https://data.calgary.ca/Demographics/Historical-Calgary-Community-Populations/4mgk-hrwr)
-
+Data Chef's chosen datasets:
+* [Dataset 1: Community Sectors](https://data.calgary.ca/Base-Maps/Community-Sectors/mz2j-7eb5/about_data)
+* [Dataset 2: Historical Calgary Community Populations](https://data.calgary.ca/Demographics/Historical-Calgary-Community-Populations/4mgk-hrwr)
 (Both datasets found on Open Calgary)
 
 ### The overall plan
