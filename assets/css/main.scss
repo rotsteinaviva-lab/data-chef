@@ -1,0 +1,6 @@
+---
+# Only main files contain this front matter block at the top
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
