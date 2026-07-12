@@ -1,8 +1,8 @@
-yaml
+markdown
 
 ---
 layout: post
-title: "My First Blog Post!"
+title: "Calgary Pop"
 date: 2026-07-10
 author: "Aviva Rotstein"
 categories: [data wrangling, data visulaization]
