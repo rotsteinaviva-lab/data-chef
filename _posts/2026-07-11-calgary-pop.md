@@ -72,6 +72,8 @@ tags: [Tableau, Data Viz]
 
 > 🧠 **Data Engineering Reflection:** *Tableau Public explicitly forces you to convert your connection from a "Live" data stream to a static "Extract" (.hyper file) before publishing. What is the operational difference between these two connection modes? Why does a public cloud server prefer hosting an extract?*
 
+Your viz should look like this:
+
 {% include tableau-calgary.html %}
 
 
