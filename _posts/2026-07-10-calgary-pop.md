@@ -13,15 +13,15 @@ Simplified option: Skip this exercise and go directly to [Part 2 - Data Visualiz
 # Project Overview
 
 ## Objectives
-*   **Problem:** Visualize Calgary’s 50-year population growth (1968–2019) by city sector.
+*   **Problem:** Visualize Calgary's 50-year population growth (1968-2019) by city sector.
 *   **Learning:** Find datasets, clean data with OpenRefine, and document changes for replicability.
 
 ## Data Sources
 *   **Platform:** [Calgary Open Data](https://calgary.ca) (Open Government Licence).
-*   **Required Attribution:** *"Contains information licensed under the Open Government Licence – City of Calgary"*
+*   **Required Attribution:** *"Contains information licensed under the Open Government Licence - City of Calgary"*
 *   **Selected Datasets:**
     *   [Dataset 1: Community Sectors](https://calgary.caBase-Maps/Community-Sectors/mz2j-7eb5/about_data) (Sectors, Communities, Polygons)
-    *   [Dataset 2: Historical Calgary Community Populations](https://calgary.caDemographics/Historical-Calgary-Community-Populations/4mgk-hrwr)
+    *   [Dataset 2: Historical Calgary Community Populations](https://calgary.caDemographics/Historical-Calgary-Community-Populations/4mgk-hrwr) (Relevant variables: Years, Population, Communities)
 
 ## Target Architecture
 Transform the data into three normalized tables to build relationships in Tableau:
@@ -45,8 +45,8 @@ Transform the data into three normalized tables to build relationships in Tablea
 4.  **Split:** On the communities column, click **Edit cells** → **Split multi-value cells** (Use a comma as the separator).
 5.  **Fill:** On the sector column, click **Edit cells** → **Fill down** to fill newly created rows.
     > 🧠 **Data Structure Reflection Prompt:** *Why is the "Fill Down" step critical immediately after splitting multi-value cells? What happens to the structural integrity of our records if we skip it?*
-6.  **Create Table 1:** Delete the polygon column (**Edit column** → **Remove this column**). Export as CSV (e.g., `sector_community_master.csv`).
-7.  **Create Table 2:** Re-import the original CSV into a separate project. Delete the communities column (**Edit column** → **Remove this column**). Export as CSV.
+6.  **Create Table 1:** Delete the polygon column (**Edit column** → **Remove this column**). Export as CSV (e.g., `clean-sector-community.csv`).
+7.  **Create Table 2:** Re-import the original CSV into a separate project. Delete the communities column (**Edit column** → **Remove this column**). Export as TSV (tab-separated values).
 
 ## Phase 2: Clean and Normalize Table 3 (Historical Populations)
 
@@ -56,7 +56,7 @@ Transform the data into three normalized tables to build relationships in Tablea
 4.  **Fix Typos:** Merge `SCARBORO/ SUNALTA WEST` into `SCARBORO/SUNALTA WEST` (remove the space after the slash).
 5.  **Cross-Reference:** Create a new column named `normalized-name` using this GREL formula to check against your master file:
     ```grel
-    cell.cross("sector_community_master", "Communities").cells["Communities"].value
+    cell.cross("clean-sector-community", "Communities").cells["Communities"].value
     ```
     > 🧠 **Automation & Replicability Reflection Prompt:** *Instead of visually scanning thousands of rows for mismatches, we are using a relational lookup (`cell.cross`). How does a programmatic approach reduce human error and guarantee that another researcher can replicate your cleaning process exactly?*
 6.  **Filter Blanks:** Click the `normalized-name` dropdown → **Facet** → **Customized facets** → **Facet by blank**. Click **True** to isolate the 130 unmatched rows.
@@ -81,7 +81,7 @@ Transform the data into three normalized tables to build relationships in Tablea
 | Residual Ward 13, 14 | South |
 | Wards 7, 8, & 11 | Centre |
 
-3.  **Update Master:** Open your `sector_community_master.csv` file in Excel.
+3.  **Update Master:** Open your `clean-sector-community.csv` file in Excel.
 4.  **Append:** Manually add these 14 residual ward names as communities alongside their assigned sectors. Match the exact casing used in the historical population file.
 
 ***
