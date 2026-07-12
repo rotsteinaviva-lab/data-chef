@@ -17,7 +17,7 @@ Note: Phases 1-3 can be found in [Part 1]({{ site.baseurl }}{% post_url 2026-07-
 4. Locate the data type icon (currently showing **Abc**) above your polygon field. Click it and change the data type from **String** to **Spatial**.
 5. Switch to **Sheet 1** at the bottom of the screen. Drag your spatial `polygon` field directly into the centre of the canvas to verify that the map of Calgary's sectors renders correctly.
 
-> 🧠 **Tableau Architecture Reflection:** *Why must we set the data type to "Spatial" instead of leaving it as a "String"? What backend calculation is Tableau performing when you change this data type, and how does it alter how the canvas treats the coordinates?*
+> 🧠 **Tableau Architecture Reflection:** *Why must we set the data type to "Spatial" instead of leaving it as a "String"? How does it alter how the canvas treats the coordinates?*
 
 ***
 
@@ -33,7 +33,7 @@ Communities (from the Master List) = Final-Names (from the Historical Dataset)
    * Click the data type icon above `Population` and ensure it is set to **Number (Whole)**.
    * Click the data type icon above `Years` and change it to **Date**. 
 
-> 🧠 **Data Modeling Reflection:** *We are linking three separate files using Tableau's logical relationship layer rather than hard-joining them into a single flat table. How does keeping these tables distinct protect our computer's memory when processing a 50-year dataset? What would happen to our polygon data rows if we performed a standard flat physical join?*
+> 🧠 **Data Modeling Reflection:** *We are linking three separate files using Tableau's logical relationship layer rather than hard-joining them into a single flat table. How does keeping these tables distinct protect our computer's memory when processing a larger dataset? What might happen to our polygon data rows if we performed a standard flat physical join?*
 
 ***
 
@@ -73,7 +73,7 @@ Communities (from the Master List) = Final-Names (from the Historical Dataset)
 4. Navigate to the top menu bar, click **Server** → **Tableau Public** → **Save to Tableau Public...**
 5. Sign in to your existing account or create a free user profile to deploy your live, interactive 50-year Calgary population trajectory online.
 
-> 🧠 **Data Engineering Reflection:** *Tableau Public explicitly forces you to convert your connection from a "Live" data stream to a static "Extract" (.hyper file) before publishing. What is the operational difference between these two connection modes? Why does a public cloud server prefer hosting an extract?*
+> 🧠 **Data Engineering Reflection:** *Tableau Public explicitly forces you to convert your connection from a "Live" data stream to a static "Extract" (.hyper file) before publishing. Why does a public cloud server prefer hosting an extract?*
 
 ## Your viz should look like this:
 
