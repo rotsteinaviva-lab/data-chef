@@ -6,6 +6,9 @@ plugins:
 
 minimal_mistakes_skin: "dark" # Options: "air", "aqua", "contrast", "dark", "dir", "neon", "mint", "sunrise"
 
+url: "https://rotsteinaviva-lab.github.io"
+baseurl: "/data-chef"
+
 defaults:
   # _pages
   - scope:
@@ -25,6 +28,5 @@ defaults:
       comments: true
       share: true
       related: true
-url: "https://rotsteinaviva-lab.github.io"
-baseurl: "/data-chef"
+
 
