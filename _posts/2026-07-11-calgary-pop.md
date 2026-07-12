@@ -4,8 +4,10 @@ classes: wide
 title: "Calgary Pop"
 date: 2026-07-11
 author: "Aviva Rotstein"
-categories: [data wrangling, data visualization]
-tags: [Tableau, OpenRefine]
+tags: 
+ - Tableau
+ - OpenRefine
+ - data viz
 ---
 
 ## Hello World Post 2
