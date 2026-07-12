@@ -34,17 +34,17 @@ AND
 (Both datasets found on Open Calgary)
 
 ### The overall plan
-* Take a look at the datasets. The variables in dataset 1 consist of:
+Take a look at the datasets. The variables in dataset 1 consist of:
  * Polygons for the sectors
  * Names of the sectors
  * Smaller Communities within those sectors. Note: Since multiple communities are listed in individual cells, separated by commas, this will require cleaning.
-* The other dataset includes a few variables that we aren't interested in. The important variables are year, population, and community. Note that there is no 'sector' variable, just the smaller communities within.
-* Data Chef's  overall idea is to create relationships between the datasets in Tableau. But first we need to do something about the multiple values in the first dataset.
-* Data Chef's plan is to 
+The other dataset includes a few variables that we aren't interested in. The important variables are year, population, and community. Note that there is no 'sector' variable, just the smaller communities within.
+Data Chef's  overall idea is to create relationships between the datasets in Tableau. But first we need to do something about the multiple values in the first dataset.
+Data Chef's plan is to 
     1. Duplicate the polygon/sector/communities dataset to transform the 1 dataset into 2 different tables - the first table will have the sector names and the community names. The community names will be separated using openRefine to put each community name on a different row or record. Data Chef will then pair each community name with the name of the sector to which it belongs. 
     2. The second table only requires us to delete the community name variable, leaving just the polygon and sector name variables.
-* We will then have 3 tables to work with
-* We also need to do a check making sure the community names and sector names are normalized across the tables, so that we can create relationships between tables eventually in Tableau in Part 2.
+We will then have 3 tables to work with
+We also need to do a check making sure the community names and sector names are normalized across the tables, so that we can create relationships between tables eventually in Tableau in Part 2.
 
 ### Steps for data wrangling on OpenRefine
 1. Download the datasets in csv format 
