@@ -8,7 +8,7 @@ tags: [Tableau, OpenRefine, data viz]
 ---
 
 
-
+{% include tableau-calgary.html %}
 
 
 
