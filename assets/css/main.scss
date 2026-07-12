@@ -2,3 +2,51 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Custom FAQ Box Styling */
+details {
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 12px;
+  transition: all 0.3s ease;
+}
+
+details[open] {
+  background-color: #ffffff;
+  border-color: #0366d6;
+  box-shadow: 0 4px 12px rgba(3, 102, 214, 0.08);
+}
+
+summary {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #24292e;
+  cursor: pointer;
+  outline: none;
+  list-style: none; /* Removes default arrow on some browsers */
+}
+
+summary::-webkit-details-marker {
+  display: none; /* Removes default arrow on Chrome/Safari */
+}
+
+/* Custom interactive indicator */
+summary::before {
+  content: "➕ ";
+  font-size: 0.9rem;
+  margin-right: 8px;
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+  content: "➖ ";
+}
+
+/* Smooth spacing for the answer inside */
+details p {
+  margin-top: 12px;
+  margin-bottom: 0;
+  color: #586069;
+  line-height: 1.6;
+}
