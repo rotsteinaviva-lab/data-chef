@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: "Calgary Pop"
 date: 2026-07-10
 author: "Aviva Rotstein"
