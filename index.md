@@ -1,7 +1,7 @@
 markdown
 
 ---
-layout: default
+layout: post
 title: "My Blog Home"
 ---
 
