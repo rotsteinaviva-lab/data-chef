@@ -16,7 +16,7 @@ tags: [Tableau, Data Viz]
 4. Locate the data type icon (currently showing **Abc**) above your polygon field. Click it and change the data type from **String** to **Spatial**.
 5. Switch to **Sheet 1** at the bottom of the screen. Drag your spatial `polygon` field directly into the centre of the canvas to verify that the map of Calgary's sectors renders correctly.
 
-> 🧠 **Tableau Architecture Reflection Prompt:** *Why must we set the data type to "Spatial" instead of leaving it as a "String"? What backend calculation is Tableau performing when you change this data type, and how does it alter how the canvas treats the coordinates?*
+> 🧠 **Tableau Architecture Reflection:** *Why must we set the data type to "Spatial" instead of leaving it as a "String"? What backend calculation is Tableau performing when you change this data type, and how does it alter how the canvas treats the coordinates?*
 
 ***
 
@@ -30,7 +30,7 @@ tags: [Tableau, Data Viz]
    * Click the data type icon above `Population` and ensure it is set to **Number (Whole)**.
    * Click the data type icon above `Years` and change it to **Date**. 
 
-> 🧠 **Data Modeling Reflection Prompt:** *We are linking three separate files using Tableau's logical relationship layer rather than hard-joining them into a single flat table. How does keeping these tables distinct protect our computer's memory when processing a 50-year dataset? What would happen to our polygon data rows if we performed a standard flat physical join?*
+> 🧠 **Data Modeling Reflection:** *We are linking three separate files using Tableau's logical relationship layer rather than hard-joining them into a single flat table. How does keeping these tables distinct protect our computer's memory when processing a 50-year dataset? What would happen to our polygon data rows if we performed a standard flat physical join?*
 
 ***
 
@@ -59,7 +59,7 @@ tags: [Tableau, Data Viz]
 4. **Rename Legends:** Click the dropdown menu at the top of your year filter card and your color legend card, select **Edit Title**, and simplify their titles to `Year` and `Population` respectively.
 5. **Restrict Filter Scope:** Click the dropdown menu on your `Year` slider control, navigate to **Customize**, and uncheck **Show "All" Value**. 
 
-> 🧠 **User Experience (UX) Reflection Prompt:** *Why is it an important design choice to hide the "All" option on a historical timeline slider? What visual misinterpretations occur if an end-user accidentally selects "All" when viewing a geographic population density map over a 50-year span?*
+> 🧠 **User Experience (UX) Reflection:** *Why is it an important design choice to hide the "All" option on a historical timeline slider? What visual misinterpretations occur if an end-user accidentally selects "All" when viewing a geographic population density map over a 50-year span?*
 
 ***
 
@@ -70,7 +70,7 @@ tags: [Tableau, Data Viz]
 4. Navigate to the top menu bar, click **Server** $\rightarrow$ **Tableau Public** $\rightarrow$ **Save to Tableau Public...**
 5. Sign in to your existing account or create a free user profile to deploy your live, interactive 50-year Calgary population trajectory online.
 
-> 🧠 **Data Engineering Reflection Prompt:** *Tableau Public explicitly forces you to convert your connection from a "Live" data stream to a static "Extract" (.hyper file) before publishing. What is the operational difference between these two connection modes? Why does a public cloud server prefer hosting an extract?*
+> 🧠 **Data Engineering Reflection:** *Tableau Public explicitly forces you to convert your connection from a "Live" data stream to a static "Extract" (.hyper file) before publishing. What is the operational difference between these two connection modes? Why does a public cloud server prefer hosting an extract?*
 
 {% include tableau-calgary.html %}
 
