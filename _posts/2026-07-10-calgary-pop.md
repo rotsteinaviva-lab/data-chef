@@ -81,7 +81,6 @@ Transform the data into three normalized tables to build relationships in Tablea
 | Residual Ward 13, 14 | South |
 | Wards 7, 8, & 11 | Centre |
 
-    > 🧠 **Historical Bias Reflection Prompt:** *Historical datasets often include retired administrative boundaries like "Residual Wards" that no longer exist on modern maps. Why must we find a logical way to map these to modern sectors instead of just deleting them from our 50-year timeline? What visual bias or story distortions happen when we delete old data?*
 3.  **Update Master:** Open your `sector_community_master.csv` file in Excel.
 4.  **Append:** Manually add these 14 residual ward names as communities alongside their assigned sectors. Match the exact casing used in the historical population file.
 
