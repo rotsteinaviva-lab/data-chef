@@ -1,4 +1,4 @@
-markdown
+yaml
 
 ---
 layout: default
