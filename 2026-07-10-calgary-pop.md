@@ -1,7 +1,7 @@
 markdown
 
 ---
-layout: post
+layout: default
 title: "Calgary Pop"
 date: 2026-07-10
 author: "Aviva Rotstein"
