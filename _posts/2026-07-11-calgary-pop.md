@@ -8,7 +8,7 @@ tags: [Tableau, Data Viz]
 
 ---
 
-# Phase 4: Building the Visualization in Tableau
+## Phase 4: Building the Visualization in Tableau
 Note: Phases 1-3 can be found in [Part 1]({{ site.baseurl }}{% post_url 2026-07-10-calgary-pop %})
 ## Step 1: Initialize Tableau and Connect the Spatial Data
 1. Open **Tableau Desktop** (accessible via your free academic license).
