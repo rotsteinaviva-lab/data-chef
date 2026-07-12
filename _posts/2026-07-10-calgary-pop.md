@@ -28,12 +28,14 @@ Suggested search terms: population, historical, sectors, communities (include 'c
 
 Data Chef's solution:
 [Dataset 1: Community Sectors](https://data.calgary.ca/Base-Maps/Community-Sectors/mz2j-7eb5/about_data)
+AND
 [Dataset 2: Historical Calgary Community Populations](https://data.calgary.ca/Demographics/Historical-Calgary-Community-Populations/4mgk-hrwr)
 
 (Both datasets found on Open Calgary)
 
 Steps for data wrangling on OpenRefine
-1. 
+1. Download the datasets in csv format 
+(Although they contain commas, OpenRefine is still capable of interpreting the data properly from the csv and Open Calgary has no tsv option. There is an xlsx option but it will cut off the polygon data.)
 
 
 
