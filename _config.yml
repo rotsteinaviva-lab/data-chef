@@ -1,3 +1,5 @@
 title: Data Chef
 description: Welcome to my new GitHub blog page!
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+plugins:
+  - jekyll-include-cache
