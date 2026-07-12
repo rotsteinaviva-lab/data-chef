@@ -25,5 +25,4 @@ defaults:
       comments: true
       share: true
       related: true
-custom_css: /assets/css/custom.scss
-      
+
