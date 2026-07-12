@@ -93,10 +93,5 @@ Transform the data into three normalized tables to build relationships in Tablea
 ***
 
 Your datasets are now fully cleaned, normalized, and ready for Tableau.
-Use code with caution.If you want to prepare your student assessment or deployment next, let me know:Should we add an answer key / grading criteria for these reflection prompts?Do you want a brief Tableau setup guide to show how these three finalized files link?
-
-***
-
-Your datasets are now fully cleaned, normalized, and ready for Tableau.
 
 
