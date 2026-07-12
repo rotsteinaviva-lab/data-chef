@@ -1,4 +1,10 @@
+---
 
+---
+@charset "utf-8";
+
+// 1. Shrink global base typography BEFORE importing the theme core
+$doc-font-size: 75%; 
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
