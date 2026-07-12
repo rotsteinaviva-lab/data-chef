@@ -7,4 +7,4 @@ author: "Aviva Rotstein"
 tags: [Data Wrangling, OpenRefine, Data Normalization]
 ---
 
-Option: Skip this exercise and go directly to [Part 2 - Data Visualization](/2026-07-11-calgary-pop.md). Clean data sets are provided.
+Option: Skip this exercise and go directly to [Part 2 - Data Visualization]({% post_url 2026-07-11-calgary-pop.md %}). Clean data sets are provided.
