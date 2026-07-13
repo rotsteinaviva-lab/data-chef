@@ -17,7 +17,7 @@ Simplified option: Skip this exercise and go directly to [Part 2 - Data Visualiz
 *   **Learning:** Find datasets, clean data with OpenRefine, and document changes for replicability.
 
 ## Data Sources
-*   **Platform:** [Calgary Open Data](https://data.calgary.ca) (Open Government Licence).
+*   **Platform:** [Calgary Open Data](https://data.calgary.ca) ([Open Government Licence](https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa)).
 *   **Required Attribution:** *"Contains information licensed under the Open Government Licence - City of Calgary"*
 *   **Selected Datasets:**
     *   [Dataset 1: Community Sectors](https://data.calgary.ca/Base-Maps/Community-Sectors/mz2j-7eb5/about_data) (Sectors, Communities, Polygons)
