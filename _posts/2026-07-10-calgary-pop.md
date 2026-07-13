@@ -35,7 +35,7 @@ Transform the data into three normalized tables to build relationships in Tablea
 
 # Data Wrangling Instructions
 
-## Phase 1: Prepare Tables 1 & 2 (Sectors)
+## Phase 1: Prepare Tables 1 & 2 (Sectors & Communities)
 
 1.  **Download:** Get Dataset 1 in CSV format.
     > 🧠 **Technical Reflection:** *Open Calgary offers XLSX formats, but we are choosing CSV. Why are we avoiding XLSX here, and what risk does it pose to long text fields like spatial/polygon data?*
