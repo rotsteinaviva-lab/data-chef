@@ -7,3 +7,9 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+ol {
+  li::marker {
+    color: #49eaff; /* Put your desired color hex or variable here */
+  }
+}
