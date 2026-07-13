@@ -1,10 +1,12 @@
-title: Data Chef
-description: 
+
+title: "Data Chef"
+description: "Recipes for data-wrangling and visualization (sample step-by-step projects)"
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+
 plugins:
   - jekyll-include-cache
 
-minimal_mistakes_skin: "dark" # Options: "air", "aqua", "contrast", "dark", "dir", "neon", "mint", "sunrise"
+minimal_mistakes_skin: "dark" # Options: air, aqua, contrast, dark, dir, neon, mint, sunrise
 
 url: "https://rotsteinaviva-lab.github.io"
 baseurl: "/data-chef"
@@ -13,7 +15,6 @@ sass:
   sass_dir: _sass
 
 defaults:
-  
   # _posts
   - scope:
       path: "_posts"
@@ -25,5 +26,4 @@ defaults:
       comments: true
       share: true
       related: true
-
 
