@@ -72,7 +72,7 @@ Transform the data into three normalized tables to build relationships in Tablea
 ## Phase 3: Map Residual Wards
 
 1.  **Identify:** The remaining 14 unmatched rows represent residual wards.
-2.  **Reference:** Use the geographic mapping table below to assign these wards to sectors. [This map](https://www.calgary.ca/council/mayor/wardmap.html) consulted.
+2.  **Reference:** Use the geographic mapping table below to assign these wards to the most accurate sector overlap possible. [This map](https://www.calgary.ca/council/mayor/wardmap.html) consulted.
 
 | Ward Zone | Assigned Sector |
 | :--- | :--- |
