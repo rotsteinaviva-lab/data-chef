@@ -25,8 +25,8 @@ Simplified option: Skip this exercise and go directly to [Part 2 - Data Visualiz
 
 ## Target Architecture
 Transform the data into three normalized tables to build relationships in Tableau:
-1.  **Table 1 (Sector-Community Map):** Sector names paired with individual community names.
-2.  **Table 2 (Sector-Polygon Map):** Sector names paired with spatial polygon data.
+1.  **Table 1 (Sector-Community):** Sector names paired with individual community names.
+2.  **Table 2 (Sector-Polygon):** Sector names paired with spatial polygon data.
 3.  **Table 3 (Population Data):** Historical population data with normalized community names.
 
 > 🧠 **Licensing & Ethics Reflection:** *Data is a shared public resource, but it comes with strings attached. What are the ethical implications of using civic data without giving proper credit? How does compliance with the Open Government Licence protect your academic credibility and support the "open data" movement that made this project possible?*
