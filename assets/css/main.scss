@@ -2,7 +2,7 @@
 ---
 // 1. Define Variables
 $base-font-size: 14px;
-$base-font-family: 'Gill Sans', 'Calibri', 'Trebuchet';
+$font-technical: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;;
 $bullet-number-color: #22c0ff; // Your custom color for numbers
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
