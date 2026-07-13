@@ -14,9 +14,10 @@ sass:
   sass_dir: _sass
 
 defaults:
+
   # _posts
   - scope:
-      path: " "
+      path: "_posts"
       type: "posts"
     values:
       layout: "single"
