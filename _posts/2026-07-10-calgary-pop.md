@@ -49,7 +49,7 @@ Transform the data into three normalized tables to build relationships in Tablea
 7.  **Create Table 2:** Re-import the original CSV into a separate project. Delete the communities column (**Edit column** → **Remove this column**).
 8.  **Export** as TSV (tab-separated values, e.g., `clean-polygon-data.tsv`).
 
-## Phase 2: Clean and Normalize Table 3 (Historical Populations)
+## Phase 2: Clean and Normalize Table 3 (Population - Historical)
 
 1.  **Import:** Upload the historical population dataset to OpenRefine.
 2.  **Trim:** Run the whitespace trim transformation on all columns.
