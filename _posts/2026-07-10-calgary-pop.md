@@ -17,11 +17,11 @@ Simplified option: Skip this exercise and go directly to [Part 2 - Data Visualiz
 *   **Learning:** Find datasets, clean data with OpenRefine, and document changes for replicability.
 
 ## Data Sources
-*   **Platform:** [Calgary Open Data](https://calgary.ca) (Open Government Licence).
+*   **Platform:** [Calgary Open Data](https://data.calgary.ca) (Open Government Licence).
 *   **Required Attribution:** *"Contains information licensed under the Open Government Licence - City of Calgary"*
 *   **Selected Datasets:**
-    *   [Dataset 1: Community Sectors](https://calgary.ca/Base-Maps/Community-Sectors/mz2j-7eb5/about_data) (Sectors, Communities, Polygons)
-    *   [Dataset 2: Historical Calgary Community Populations](https://calgary.ca/Demographics/Historical-Calgary-Community-Populations/4mgk-hrwr) (Relevant variables: Years, Population, Communities)
+    *   [Dataset 1: Community Sectors](https://data.calgary.ca/Base-Maps/Community-Sectors/mz2j-7eb5/about_data) (Sectors, Communities, Polygons)
+    *   [Dataset 2: Historical Calgary Community Populations](https://data.calgary.ca/Demographics/Historical-Calgary-Community-Populations/4mgk-hrwr) (Relevant variables: Years, Population, Communities)
 
 ## Target Architecture
 Transform the data into three normalized tables to build relationships in Tableau:
