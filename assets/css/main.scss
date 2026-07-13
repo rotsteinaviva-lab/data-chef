@@ -1,11 +1,23 @@
 --- 
---- 
-
+---
 
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 
-$doc-font-size: 80%;
+// Global 80% Font Scaling Across All Responsive Devices
+html {
+  font-size: 12.8px; // 80% of theme standard 16px
+  
+  @include breakpoint($medium) {
+    font-size: 14.4px; // 80% of theme standard 18px
+  }
+  @include breakpoint($large) {
+    font-size: 16px; // 80% of theme standard 20px
+  }
+  @include breakpoint($x-large) {
+    font-size: 17.6px; // 80% of theme standard 22px
+  }
+}
 
