@@ -11,9 +11,9 @@ tags: [Tableau, Data Viz]
 ## Phase 4: Building the Visualization in Tableau
 Note: Phases 1-3 can be found in [Part 1]({{ site.baseurl }}{% post_url 2026-07-10-calgary-pop %})
 
-[Download the Sector-Community Data (CSV)](./data/clean-data-sector-community.csv)
-[Download the Polygon Data (TSV)](./data/clean-polygon-data.tsv)
-[Download the Historical Data (TSV)](./data/clean-historical-data.tsv)
+[Download the Sector-Community Data (CSV)]({{ './data/clean-data-sector-community.csv' | relative_url }})
+[Download the Polygon Data (TSV)]({{ './data/clean-polygon-data.csv' | relative_url }})
+[Download the Historical Data (TSV)]({{ './data/clean-historical-data.tsv' | relative_url }})
 
 ## Step 1: Initialize Tableau and Connect the Spatial Data
 1. Open **Tableau Desktop** (accessible via your free academic license).
