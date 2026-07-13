@@ -80,10 +80,12 @@ Communities (from the Master List) = Final-Names (from the Historical Dataset)
 
 > 🧠 **Data Engineering Reflection:** *Tableau Public explicitly forces you to convert your connection from a "Live" data stream to a static "Extract" (.hyper file) before publishing. Why does a public cloud server prefer hosting an extract?*
 
-## Your viz should look like this:
+## Your Finished Viz Should Look Like This:
 
 {% include tableau-calgary.html %}
 
+
+Add citations!!!
 
 
 
