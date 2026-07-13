@@ -3,7 +3,7 @@
 
 
 // 1. Shrink global base typography BEFORE importing the theme core
-$doc-font-size:80%;
+$doc-font-size: 80%;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
