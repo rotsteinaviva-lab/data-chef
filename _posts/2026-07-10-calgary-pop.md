@@ -71,19 +71,20 @@ Transform the data into three normalized tables to build relationships in Tablea
 
 ## Phase 3: Map Residual Wards
 
-1.  **Identify:** The remaining 14 unmatched rows represent historic residual wards.
-2.  **Reference:** Use the geographic mapping table below to assign these wards to sectors:
+1.  **Identify:** The remaining 14 unmatched rows represent residual wards.
+2.  **Reference:** Use the geographic mapping table below to assign these wards to sectors. [This map](https://www.calgary.ca/council/mayor/wardmap.html) consulted.
 
-| Historical Ward Zone | Assigned Sector |
+| Ward Zone | Assigned Sector |
 | :--- | :--- |
-| Residual Ward 1, 2 | Northwest |
-| Residual Ward 3, 4 | North |
-| Residual Ward 5 | Northeast |
+| Residual Ward 1, 2 , 4| Northwest |
+| Residual Ward 3 | North |
+| Residual Ward 5, 10 | Northeast |
 | Residual Ward 6 | West |
-| Residual Ward 10 | East |
-| Residual Ward 9, 12 | Southeast |
-| Residual Ward 13, 14 | South |
-| Wards 7, 8, & 11 | Centre |
+| Residual Ward 7, 8 | Centre |
+| Residual Ward 9 | East |
+| Residual Ward 11, 13, 14 | South |
+| Residual Ward 12 | Southeast |
+
 
 3.  **Update Master:** Open your `clean-data-sector-community.csv` file in Excel.
 4.  **Append:** Manually add these 14 residual ward names as communities alongside their assigned sectors. Match the exact casing used in the historical population file.
