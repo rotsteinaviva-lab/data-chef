@@ -30,10 +30,8 @@ Note: Phases 1-3 can be found in [Part 1]({{ site.baseurl }}{% post_url 2026-07-
 1. Click the **Data Source** tab in the bottom-left corner to return to your data canvas.
 2. Next to *Connections*, click **Add** to bring in your second dataset. Select and drag `clean-data-sector-community.csv` onto the canvas. Tableau should automatically detect and create a relationship line ("noodle") linking the two tables via the `Sector` field.
 3. Click **Add** again to connect your final dataset: `clean-historical-data.tsv`. Drag it onto the data canvas.
-4. Because the field names differ, Tableau will prompt you to define the relationship manually. Under the relationship settings, map the fields together by setting:
-```text
-Communities (from the Master List) = Final-Names (from the Historical Dataset)
-```
+4. Because the field names differ, Tableau will prompt you to define the relationship manually. Under the relationship settings, map the fields together by setting:<br>
+Communities (from the Community-Sector Dataset) = Final-Names (from the Historical Dataset)
 5. Verify the data types for this historical table:
    * Click the data type icon above `Population` and ensure it is set to **Number (Whole)**.
    * Click the data type icon above `Years` and change it to **Date**. 
