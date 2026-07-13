@@ -24,6 +24,22 @@ $colors: (
   "error":       #791b14  // Alerts and validation errors
 );
 
+$quote-text-color: #cbd2db;       
+
+// 2. Target the blockquote element
+blockquote {
+  color: $quote-text-color;
+  
+  // Clean spacing around the text
+  padding: 10px 20px;
+  margin: 20px 0;
+  
+  // Ensures paragraph text inside inherits the correct color
+  p {
+    color: inherit; 
+    margin: 0; 
+  }
+
 // SCSS Function to quickly fetch colors from the map
 @function color($key) {
   @return map-get($colors, $key);
