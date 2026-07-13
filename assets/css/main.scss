@@ -4,7 +4,20 @@
 $base-font-size: 16px;
 $base-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 $bullet-number-color: #8d9091; // Your custom color for numbers
-$base-text-decoration-color: #105a7c;
+// Define your core color scheme
+$colors: (
+  "primary":     #41474e, // Brand color (links, accents)
+  "text-main":   #636670, // Main body text (high contrast)
+  "text-muted":  #2c3a44, // Secondary text (captions, subtexts)
+  "text-light":  #84888f, // Text on dark backgrounds
+  "bullet-num":  #3299c2, // Your custom number bullet color
+  "error":       #791b14  // Alerts and validation errors
+);
+
+// SCSS Function to quickly fetch colors from the map
+@function color($key) {
+  @return map-get($colors, $key);
+}
 
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -16,7 +29,8 @@ $base-text-decoration-color: #105a7c;
 body {
   font-family: $base-font-family;
   font-size: $base-font-size;
-  text-decoration-color:$base-font-color;
+    color: color("text-main");
+    background-color: color("text-light");
   padding: 20px;
 }
 
