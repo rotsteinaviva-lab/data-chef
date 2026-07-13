@@ -36,7 +36,6 @@ Note: Phases 1-3 can be found in [Part 1]({{ site.baseurl }}{% post_url 2026-07-
    * Click the data type icon above `Population` and ensure it is set to **Number (Whole)**.
    * Click the data type icon above `Years` and change it to **Date**. 
 
-> 🧠 **Data Modeling Reflection:** *We are linking three separate files using Tableau's logical relationship layer rather than hard-joining them into a single flat table. How does keeping these tables distinct protect our computer's memory when processing a larger dataset? What might happen to our polygon data rows if we performed a standard flat physical join?*
 
 ***
 
