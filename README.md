@@ -32,7 +32,7 @@ You can view the live site here: [Data Chef](rotsteinaviva-lab.github.io/data-ch
 
 ## Connect
 
-**GitHub Profile:** [@rotsteinaviva-lab](https://github.com)
+**GitHub Profile:** [@rotsteinaviva-lab](https://github.com/rotsteinaviva-lab/data-chef))
 
 ---
 
