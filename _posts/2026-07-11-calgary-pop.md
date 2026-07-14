@@ -9,20 +9,20 @@ tags: [Tableau, Data Viz]
 ---
 
 ## Phase 4: Building the Visualization in Tableau
-Note: Phases 1-3 can be found in [Part 1]({{ site.baseurl }}{% post_url 2026-07-10-calgary-pop %})
+Note: Project Overview and Phases 1-3 can be found in [Part 1]({{ site.baseurl }}{% post_url 2026-07-10-calgary-pop %})
 
 [Download the Sector-Community Data (CSV)]({{ './data/clean-data-sector-community.csv' | relative_url }})<br>
 [Download the Polygon Data (TSV)]({{ './data/clean-polygon-data.tsv' | relative_url }})<br>
 [Download the Historical Data (TSV)]({{ './data/clean-historical-data.tsv' | relative_url }})
 
 ## Step 1: Initialize Tableau and Connect the Spatial Data
-1. Open **Tableau Desktop** (accessible via your free academic license).
+1. Open **Tableau Desktop** (accessible via a [free academic license](https://www.tableau.com/academic/students)).
 2. In the left-hand pane under **Connect**, click **To a File** → **More...**
 3. Navigate to and select your spatial file: `clean-polygon-data.tsv`.
 4. Locate the data type icon (currently showing **Abc**) above your polygon field. Click it and change the data type from **String** to **Spatial**.
 5. Switch to **Sheet 1** at the bottom of the screen. Drag your spatial `polygon` field directly into the centre of the canvas to verify that the map of Calgary's sectors renders correctly.
 
-> 🧠 **Tableau Architecture Reflection:** *Why must we set the data type to "Spatial" instead of leaving it as a "String"? How does it alter how the canvas treats the coordinates?*
+> 🧠 **Tableau Data Type Reflection:** *Why do we set the data type to "Spatial" instead of leaving it as a "String"? How does it alter how the canvas treats the coordinates?*
 
 ***
 
@@ -36,6 +36,7 @@ Note: Phases 1-3 can be found in [Part 1]({{ site.baseurl }}{% post_url 2026-07-
    * Click the data type icon above `Population` and ensure it is set to **Number (Whole)**.
    * Click the data type icon above `Years` and change it to **Date**. 
 
+> 🧠 **Tableau Relationship Operator Reflection:** *Why do we choose `=` as our operator? How would the greater-than and less-than relationship operator options change the outcome?*
 
 ***
 
@@ -82,7 +83,6 @@ Note: Phases 1-3 can be found in [Part 1]({{ site.baseurl }}{% post_url 2026-07-
 {% include tableau-calgary.html %}
 
 
-Add citations!!!
 
 
 
