@@ -14,7 +14,7 @@ Select a topic below to jump directly to its matching articles:
     {% assign tag_name = tag.first %}
     {% assign tag_posts = tag.last %}
     
-    <a href="#{{ tag_name | downcase | slugify }}" class="btn btn--info" style="margin: 0; padding: 6px 16px; font-size: 0.8rem; border-radius: 15px;">
+    <a href="#{{ tag_name | downcase | slugify }}" class="btn btn--info" style="margin: 0; padding: 3px 12px; font-size: 0.8rem; border-radius: 20px;">
       {{ tag_name }} <span style="opacity: 0.6; font-size: 1rem; margin-left: 3px;">({{ tag_posts.size }})</span>
     </a>
   {% endfor %}
