@@ -8,10 +8,10 @@ You can view the live site here: [Data Chef](rotsteinaviva-lab.github.io/data-ch
 
 ## Built With
 
-* **Website Framework:** Jekyll with the [Minimal Mistakes](https://github.io) theme.
+* **Website Framework:** Jekyll with the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme.
 * **Coding Assistant:** AI tools (Google Gemini) used to help write code tweaks, custom styles, and configuration adjustments.
 * **Content Assistant:** AI tools (Google Gemini) used to help format lengthy data replication notes into simple steps.
-* **Data Tools:** OpenRefine for data cleaning and Tableau for building dashboards.
+* **Data Tools:** Tools vary by post. Software listed on individual posts/pages.
 
 ---
 
