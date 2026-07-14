@@ -14,7 +14,7 @@ tags: [Data Wrangling, OpenRefine, Data Normalization]
 
 ## Objectives
 *   **Problem:** Visualize Calgary's 50-year population growth (1968-2019) by city sector.
-*   **Learning:** Find datasets and strategize approach, clean data, document changes for replicability, gain familiarity with selected data-wrangling and visualization software.
+*   **Learning:** Find datasets and strategize approach, clean data, document changes for replicability, gain familiarity with selected data wrangling and visualization software.
 
 ## Data Sources
 *   **Platform:** [Calgary Open Data](https://data.calgary.ca) ([Open Government Licence](https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa)).
