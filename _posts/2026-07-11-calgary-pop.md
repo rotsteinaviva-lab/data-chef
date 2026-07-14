@@ -7,9 +7,10 @@ author: "Aviva Rotstein"
 tags: [Tableau, Data Viz]
 
 ---
-# Data Visualization Instructions
+[NOTE!]
 Note: Project Overview and Data Wrangling Instructions can be found in [Part 1]({{ site.baseurl }}{% post_url 2026-07-10-calgary-pop %})
 
+# Data Visualization Instructions
 ## Phase 1: Download the Clean Data Files
 [Download the Sector-Community Data (CSV)]({{ './data/clean-data-sector-community.csv' | relative_url }})<br>
 [Download the Polygon Data (TSV)]({{ './data/clean-polygon-data.tsv' | relative_url }})<br>
