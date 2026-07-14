@@ -87,7 +87,7 @@ Transform the data into three normalized tables to build relationships in Tablea
 3.  **Update Master:** Open your `clean-data-sector-community.csv` file in Excel.
 4.  **Append:** Manually add these 14 Residual Wards as communities alongside their assigned sectors. Match the exact casing used in the historical population file.
 
-  > 🧠 **Data Replication Reflection:** *In Step 4, we transitioned from OpenRefine to manual editing in Excel to append the final 14 rows. What documentation must you keep to ensure that a third party can perfectly duplicate this hybrid workflow? How does a strict "change log" prevent a dataset from becoming a black box?*
+> 🧠 **Data Replication Reflection:** *In Step 4, we transitioned from OpenRefine to manual editing in Excel to append the final 14 rows. What documentation must you keep to ensure that a third party can perfectly duplicate this hybrid workflow? How does a strict "change log" prevent a dataset from becoming a black box?*
 
 ***
 
