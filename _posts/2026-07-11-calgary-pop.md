@@ -78,7 +78,7 @@ Note: Project Overview and Phases 1-3 can be found in [Part 1]({{ site.baseurl }
 
 > 🧠 **Data Engineering Reflection:** *Tableau Public explicitly forces you to convert your connection from a "Live" data stream to a static "Extract" (.hyper file) before publishing. Why does a public cloud server prefer hosting an extract?*
 
-## Your Finished Viz Should Look Like This:
+**Your Finished Viz Should Look Like This:**
 
 {% include tableau-calgary.html %}
 
