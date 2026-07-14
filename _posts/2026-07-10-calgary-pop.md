@@ -72,7 +72,7 @@ Transform the data into three normalized tables to build relationships in Tablea
 
 1.  **Identify:** The remaining 14 unmatched rows represent residual wards.
 2.  **Reference:** Use the geographic mapping table below to assign these wards to the most accurate sector overlap possible. [This map](https://www.calgary.ca/council/mayor/wardmap.html) from the City of Calgary consulted to produce the table below.
-
+>
 | Ward Zone | Assigned Sector |
 | :--- | :--- |
 | Residual Ward 1, 2 , 4| Northwest |
@@ -83,7 +83,6 @@ Transform the data into three normalized tables to build relationships in Tablea
 | Residual Ward 9 | East |
 | Residual Ward 11, 13, 14 | South |
 | Residual Ward 12 | Southeast |
-
 
 3.  **Update Master:** Open your `clean-data-sector-community.csv` file in Excel.
 4.  **Append:** Manually add these 14 Residual Wards as communities alongside their assigned sectors. Match the exact casing used in the historical population file.
