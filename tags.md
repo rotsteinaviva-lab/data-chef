@@ -15,7 +15,7 @@ Select a topic below to jump directly to its matching articles:
     {% assign tag_posts = tag.last %}
     
     <a href="#{{ tag_name | downcase | slugify }}" class="btn btn--info" style="margin: 0; padding: 6px 16px; font-size: 0.8rem; border-radius: 20px;">
-      {{ tag_name }} <span style="opacity: 0.6; font-size: 0.9rem; margin-left: 3px;">({{ tag_posts.size }})</span>
+      {{ tag_name }} <span style="opacity: 0.6; font-size: 1rem; margin-left: 3px;">({{ tag_posts.size }})</span>
     </a>
   {% endfor %}
 </div>
@@ -30,7 +30,7 @@ Select a topic below to jump directly to its matching articles:
     
     <div id="{{ tag_name | downcase | slugify }}" style="margin-bottom: 45px; scroll-margin-top: 30px;">
       <!-- Increased font-size to 2rem to make category tag headings bigger -->
-      <h4 style="border-bottom: 1px solid #7a8288; padding-bottom: 8px; color: #b6bcd1; font-size: 0.75rem;">
+      <h4 style="border-bottom: 1px solid #7a8288; padding-bottom: 8px; color: #b6bcd1; font-size: 0.85rem;">
          {{ tag_name }}
       </h4>
       <ul style="list-style-type: square; padding-left: 20px;">
