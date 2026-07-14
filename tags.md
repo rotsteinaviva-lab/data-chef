@@ -11,10 +11,8 @@ Select a topic below to jump directly to its matching articles:
 <div class="tag-cloud" style="margin: 20px 0; display: flex; flex-wrap: wrap; gap: 10px;">
   {% assign sorted_tags = site.tags | sort %}
   {% for tag in sorted_tags %}
-    {% assign tag_name = tag.first %}
-    {% assign tag_posts = tag.last %}
-    <a href="#{{ tag_name | downcase | slugify }}" class="btn btn--info" style="margin: 0; padding: 5px 12px; font-size: 0.85rem; border-radius: 20px;">
-      {{ tag_name }} <span style="opacity: 0.6; font-size: 0.75rem; margin-left: 3px;">({{ tag_posts.size }})</span>
+    <a href="#{{ tag.first | slugify }}" class="btn btn--info" style="margin: 0; padding: 5px 12px; font-size: 0.85rem; border-radius: 20px;">
+      {{ tag.first }} <span style="opacity: 0.6; font-size: 0.75rem; margin-left: 3px;">({{ tag.last.size }})</span>
     </a>
   {% endfor %}
 </div>
@@ -23,19 +21,16 @@ Select a topic below to jump directly to its matching articles:
 
 <!-- 2. The Actual Post Lists -->
 <div class="tags-lists">
-  {% assign sorted_tags = site.tags | sort %}
   {% for tag in sorted_tags %}
-    {% assign tag_name = tag.first %}
-    {% assign tag_posts = tag.last %}
-    <div id="{{ tag_name | downcase | slugify }}" style="margin-bottom: 45px; scroll-margin-top: 30px;">
+    <div id="{{ tag.first | slugify }}" style="margin-bottom: 45px; scroll-margin-top: 50px;">
       
-      <!-- Font size reduced to 1.2rem for a normal heading size -->
+      <!-- Heading font size strictly scaled down to a normal 1.2rem -->
       <h4 style="border-bottom: 1px solid #7a8288; padding-bottom: 8px; color: #b6bcd1; font-size: 1.2rem; margin-top: 0; margin-bottom: 15px;">
-        {{ tag_name }}
+        {{ tag.first }}
       </h4>
       
       <ul style="list-style-type: square; padding-left: 20px; margin-top: 0;">
-        {% for post in tag_posts %}
+        {% for post in tag.last %}
           <li style="margin-bottom: 8px; line-height: 1.4;">
             <a href="{{ post.url | relative_url }}" style="text-decoration: none; font-size: 0.95rem; font-weight: normal;">
               {{ post.title }}
