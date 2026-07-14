@@ -89,6 +89,8 @@ Transform the data into three normalized tables to build relationships in Tablea
 
    > 🧠 **Data Replication Reflection:** *In Step 4, we transitioned from OpenRefine to manual editing in Excel to append the final 14 rows. What documentation must you keep to ensure that a third party can perfectly duplicate this hybrid workflow? How does a strict "change log" prevent a dataset from becoming a black box?*
 
+***
+
 **Your datasets are now fully cleaned, normalized, and ready for Tableau in [Part 2]({{ site.baseurl }}{% post_url 2026-07-11-calgary-pop %}).**
 
 ***
