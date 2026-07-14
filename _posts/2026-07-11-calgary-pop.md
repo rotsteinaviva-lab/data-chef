@@ -48,6 +48,8 @@ tags: [Tableau, Data Viz]
 5. Right-click or click the dropdown arrow on the `Years` pill now sitting inside your Filters shelf, and select **Show Filter**. The filter control will appear on the right side of your screen.
 6. Click the dropdown arrow at the top right of this new interactive filter card and change its display style to **Single Value (Slider)**. Slide it back and forth to see the total population text dynamically update year by year.
 
+> 🧠 **Filter Controls Reflection:** *Why are we choosing the Single Value Slider? When would a dropdown or list filter be more appropriate?*
+
 ***
 
 ## Phase 5: Map the Sectors and Adjust Label Visibility
