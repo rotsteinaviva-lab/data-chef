@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Data Chef: Recipes for data-wrangling, visualization, & more (sample step-by-step projects)"
+title: "Data Chef: Recipes for data wrangling, visualization, & more (sample step-by-step projects)"
 ---
 ### Browse Content by Topic
 
