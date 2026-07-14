@@ -31,7 +31,7 @@ Select a topic below to jump directly to its matching articles:
     <div id="{{ tag_name | downcase | slugify }}" style="margin-bottom: 45px; scroll-margin-top: 30px;">
       <!-- Increased font-size to 2rem to make category tag headings bigger -->
       <h4 style="border-bottom: 2px solid #7a8288; padding-bottom: 8px; color: #b6bcd1; font-size: 0.75rem;">
-        📁 {{ tag_name }}
+         {{ tag_name }}
       </h4>
       <ul style="list-style-type: square; padding-left: 20px;">
         {% for post in tag_posts %}
