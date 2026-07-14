@@ -93,11 +93,12 @@ Transform the data into three normalized tables to build relationships in Tablea
 
 ***
 
-Your datasets are now fully cleaned, normalized, and ready for Tableau in [Part 2]({{ site.baseurl }}{% post_url 2026-07-11-calgary-pop %}).
+## Your datasets are now fully cleaned, normalized, and ready for Tableau in [Part 2]({{ site.baseurl }}{% post_url 2026-07-11-calgary-pop %}).
 
 ***
 
-## References (Includes [Part 2]({{ site.baseurl }}{% post_url 2026-07-11-calgary-pop %}) References)
+## References 
+(Includes [Part 2]({{ site.baseurl }}{% post_url 2026-07-11-calgary-pop %}) References)
 
 City of Calgary. (2026, May 19). Community Sectors [Data set]. Open Calgary. [https://data.calgary.ca/Base-Maps/Community-Sectors/mz2j-7eb5/about_data](https://data.calgary.ca/Base-Maps/Community-Sectors/mz2j-7eb5/about_data)
 
@@ -105,7 +106,8 @@ City of Calgary. (2026, May 6). Historical community populations [Data set]. Ope
 
 City of Calgary. (2026). Ward and community map. [https://www.calgary.ca/council/mayor/wardmap.html](https://www.calgary.ca/council/mayor/wardmap.html)
 
-## Software (Includes [Part 2]({{ site.baseurl }}{% post_url 2026-07-11-calgary-pop %}) Software)
+## Software 
+(Includes [Part 2]({{ site.baseurl }}{% post_url 2026-07-11-calgary-pop %}) Software)
 
 OpenRefine. (2026). OpenRefine (Version 3.10.0) [Computer software]. [https://openrefine.org/](https://openrefine.org/)
 
