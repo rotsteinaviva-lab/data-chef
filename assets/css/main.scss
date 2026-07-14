@@ -1,9 +1,13 @@
+--- 
+--- 
+// 1. Shrink global base typography BEFORE importing the theme core
+$doc-font-size:80%;
 ---
 ---
 // 1. Define Variables
 $base-font-size: 16px;
 $base-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-$bullet-number-color: #6a8791; // Your custom color for numbers
+$bullet-number-color: #0381ac; // Your custom color for numbers
 
 
 $main-heading-color: #ebf1fa; 
