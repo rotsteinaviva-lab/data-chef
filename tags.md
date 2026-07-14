@@ -32,7 +32,8 @@ Select a topic below to jump directly to its matching articles:
       <ul style="list-style-type: square; padding-left: 20px; margin-top: 0;">
         {% for post in tag.last %}
           <li style="margin-bottom: 8px; line-height: 1.4;">
-            <a href="{{ post.url | relative_url }}" style="text-decoration: none; font-size: 0.95rem; font-weight: normal;">
+              <!-- Fluid font floor forces a highly legible minimum text size on mobile screens -->
+            <a href="{{ post.url | relative_url }}" style="text-decoration: none; font-size: clamp(1rem, 2.5vw, 1.1rem); font-weight: normal;">
               {{ post.title }}
             </a>
             <span style="color: #888; font-size: 0.8rem; margin-left: 8px; display: inline-block;">
