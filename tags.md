@@ -36,10 +36,10 @@ Select a topic below to jump directly to its matching articles:
       <ul style="list-style-type: square; padding-left: 20px;">
         {% for post in tag_posts %}
           <li style="margin-bottom: 10px;">
-            <a href="{{ post.url | relative_url }}" style="text-decoration: none; font-size: 0.75rem;">
+            <a href="{{ post.url | relative_url }}" style="text-decoration: none; font-size: 0.85rem;">
               {{ post.title }}
             </a>
-            <span style="color: #888; font-size: 0.75rem; margin-left: 10px;">
+            <span style="color: #888; font-size: 0.85rem; margin-left: 10px;">
               — {{ post.date | date: "%B %d, %Y" }}
             </span>
           </li>
