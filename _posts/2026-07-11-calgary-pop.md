@@ -15,7 +15,7 @@ Note: Project Overview and Phases 1-3 can be found in [Part 1]({{ site.baseurl }
 [Download the Polygon Data (TSV)]({{ './data/clean-polygon-data.tsv' | relative_url }})<br>
 [Download the Historical Data (TSV)]({{ './data/clean-historical-data.tsv' | relative_url }})
 
-## Step 1: Initialize Tableau and Connect the Spatial Data
+### Step 1: Initialize Tableau and Connect the Spatial Data
 1. Open **Tableau Desktop** (accessible via a [free academic license](https://www.tableau.com/academic/students)).
 2. In the left-hand pane under **Connect**, click **To a File** → **More...**
 3. Navigate to and select your spatial file: `clean-polygon-data.tsv`.
@@ -26,7 +26,7 @@ Note: Project Overview and Phases 1-3 can be found in [Part 1]({{ site.baseurl }
 
 ***
 
-## Step 2: Establish Logical Relationships (The Noodle Model)
+### Step 2: Establish Logical Relationships (The Noodle Model)
 1. Click the **Data Source** tab in the bottom-left corner to return to your data canvas.
 2. Next to *Connections*, click **Add** to bring in your second dataset. Select and drag `clean-data-sector-community.csv` onto the canvas. Tableau should automatically detect and create a relationship line ("noodle") linking the two tables via the `Sector` field. Keep the operator as `=`.
 3. Click **Add** again to connect your final dataset: `clean-historical-data.tsv`. Drag it onto the data canvas.
@@ -40,7 +40,7 @@ Note: Project Overview and Phases 1-3 can be found in [Part 1]({{ site.baseurl }
 
 ***
 
-## Step 3: Configure the Canvas and Interactive Filters
+### Step 3: Configure the Canvas and Interactive Filters
 1. Go back to your worksheet (**Sheet 1**) and double-click the sheet tab at the bottom to rename it: `Calgary's Population by Sector (1968-2019)`.
 2. Drag the `Population` measure from the left sidebar and drop it onto the **Label** card. Tableau will initially display a massive number representing the aggregated sum of all 50 years combined.
 3. To slice this data over time, drag the `Years` field into the **Filters** shelf.
@@ -50,7 +50,7 @@ Note: Project Overview and Phases 1-3 can be found in [Part 1]({{ site.baseurl }
 
 ***
 
-## Step 4: Map the Sectors and Adjust Label Visibility
+### Step 4: Map the Sectors and Adjust Label Visibility
 1. Drag the `Sector` dimension from your `clean-data-sector-community.csv` file and drop it directly onto the **Label** card. You will now see individual population numbers broken down by city sector.
 2. If some sector labels are hidden or missing due to space constraints, click the **Label** icon card on the Marks shelf.
 3. Check the box that says **Allow labels to overlap other marks**. 
@@ -58,7 +58,7 @@ Note: Project Overview and Phases 1-3 can be found in [Part 1]({{ site.baseurl }
 
 ***
 
-## Step 5: Format the Typography, Tooltips, and Legends
+### Step 5: Format the Typography, Tooltips, and Legends
 1. **Reposition Labels:** Click directly on any sector label on your map canvas and drag it manually to fine-tune its placement.
 2. **Format Text:** Click the **Label** icon card, click the font dropdown, and change the typography to **Tableau Semibold** for better map legibility.
 3. **Clean Tooltips:** Click the **Tooltip** card on the Marks shelf. In the text editor window, delete any messy file paths or source system prefixes attached to the sector variable names.
@@ -69,7 +69,7 @@ Note: Project Overview and Phases 1-3 can be found in [Part 1]({{ site.baseurl }
 
 ***
 
-## Step 6: Create a Data Extract and Publish to Tableau Public
+### Step 6: Create a Data Extract and Publish to Tableau Public
 1. Click the **Data Source** tab in the bottom-left corner one last time.
 2. In the top-right corner of the data screen, change the Connection setting from *Live* to **Extract**. 
 3. Switch back to your `Calgary's Population by Sector (1968-2019)` worksheet tab. Tableau will prompt you to save the local data extraction. Save the `.hyper` file in an accessible directory on your computer.
