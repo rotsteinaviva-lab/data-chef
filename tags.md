@@ -21,13 +21,16 @@ Select a topic below to jump directly to its matching articles:
 
 <hr style="margin: 40px 0;">
 
+<!-- 2. The Actual Post Lists -->
 <div class="tags-lists">
+  {% assign sorted_tags = site.tags | sort %}
   {% for tag in sorted_tags %}
     {% assign tag_name = tag.first %}
     {% assign tag_posts = tag.last %}
     <div id="{{ tag_name | downcase | slugify }}" style="margin-bottom: 45px; scroll-margin-top: 30px;">
       
-      <h4 style="border-bottom: 1px solid #7a8288; padding-bottom: 8px; color: #b6bcd1; font-size: 1.6rem; margin-bottom: 15px;">
+      <!-- Font size reduced to 1.2rem for a normal heading size -->
+      <h4 style="border-bottom: 1px solid #7a8288; padding-bottom: 8px; color: #b6bcd1; font-size: 1.2rem; margin-top: 0; margin-bottom: 15px;">
         {{ tag_name }}
       </h4>
       
