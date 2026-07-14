@@ -2,7 +2,7 @@
 
 Welcome to **Data Chef**, a blog-style website featuring step-by-step guides and "recipes" for data cleaning, processing, and visualization. 
 
-You can view the live site here: [Data Chef](rotsteinaviva-lab.github.io/data-chef/)
+You can view the live site here: [Data Chef](https://rotsteinaviva-lab.github.io/data-chef/)
 
 ---
 
