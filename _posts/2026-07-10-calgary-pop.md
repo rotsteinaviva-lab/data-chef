@@ -41,7 +41,6 @@ Transform the data into three normalized tables to build relationships in Tablea
     > 🧠 **Technical Reflection:** *Open Calgary offers XLSX formats, but we are choosing CSV. Why are we avoiding XLSX here, i.e., what risk might it pose to long text fields like spatial/polygon data?*
 2.  **Import:** Create a new project in OpenRefine with this file. Download open source data tool OpenRefine [here](https://openrefine.org/).
 3.  **Trim:** Click column dropdowns → **Edit cells** → **Common transformations** → **Trim leading and trailing whitespace** (Apply to all columns).
-    > 🧠 **Data Cleanliness Reflection:** *Invisible spaces look identical to humans but are completely different strings to a computer. What would happen in Tableau if "Northwest" and "Northwest " tried to link?*
 4.  **Split:** On the communities column, click **Edit cells** → **Split multi-value cells** (Use a comma as the separator).
 5.  **Fill:** On the sector column, click **Edit cells** → **Fill down** to fill newly created rows.
     > 🧠 **Data Structure Reflection:** *Why is the "Fill Down" step critical immediately after splitting multi-value cells? What happens to the structural integrity of our records if we skip it?*
