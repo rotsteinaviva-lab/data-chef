@@ -105,9 +105,9 @@ City of Calgary. (2026). Ward and community map. [https://www.calgary.ca/council
 
 ## Software 
 
-OpenRefine. (2026). OpenRefine (Version 3.10.0) [Computer software]. [https://openrefine.org/](https://openrefine.org/)
-
 Microsoft Corporation. (2026). Microsoft Excel 365 [Computer software]. [https://microsoft.com](https://microsoft.com)
+
+OpenRefine. (2026). OpenRefine (Version 3.10.0) [Computer software]. [https://openrefine.org/](https://openrefine.org/)
 
 Tableau Software. (2025). Tableau Desktop (Version 2025.1.2) [Computer software]. [https://tableau.com](https://tableau.com)
 
