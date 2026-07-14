@@ -7,8 +7,7 @@ author: "Aviva Rotstein"
 tags: [Tableau, Data Viz]
 
 ---
-> [!NOTE]
-Note: Project Overview and Data Wrangling Instructions can be found in [Part 1]({{ site.baseurl }}{% post_url 2026-07-10-calgary-pop %})
+> Note: Project Overview and Data Wrangling Instructions can be found in [Part 1]({{ site.baseurl }}{% post_url 2026-07-10-calgary-pop %})
 
 # Data Visualization Instructions
 ## Phase 1: Download the Clean Data Files
