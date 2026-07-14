@@ -47,7 +47,9 @@ blockquote {
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-
+.author__urls-wrapper .btn {
+  display: none !important;
+}
 
 // 2. Base Document Styles
 body {
