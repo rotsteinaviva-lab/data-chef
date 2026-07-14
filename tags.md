@@ -21,29 +21,29 @@ Select a topic below to jump directly to its matching articles:
 
 <hr style="margin: 40px 0;">
 
-<!-- 2. The Actual Post Lists -->
 <div class="tags-lists">
   {% for tag in sorted_tags %}
     {% assign tag_name = tag.first %}
     {% assign tag_posts = tag.last %}
     <div id="{{ tag_name | downcase | slugify }}" style="margin-bottom: 45px; scroll-margin-top: 30px;">
-      <!-- Updated font-size to 2rem to make category tag headings bigger -->
-      <h4 style="border-bottom: 1px solid #7a8288; padding-bottom: 8px; color: #b6bcd1; font-size: 2rem;">
+      
+      <h4 style="border-bottom: 1px solid #7a8288; padding-bottom: 8px; color: #b6bcd1; font-size: 1.6rem; margin-bottom: 15px;">
         {{ tag_name }}
       </h4>
       
-      <ul style="list-style-type: square; padding-left: 20px;">
+      <ul style="list-style-type: square; padding-left: 20px; margin-top: 0;">
         {% for post in tag_posts %}
-          <li style="margin-bottom: 10px;">
-            <a href="{{ post.url | relative_url }}" style="text-decoration: none; font-size: 0.95rem;">
+          <li style="margin-bottom: 8px; line-height: 1.4;">
+            <a href="{{ post.url | relative_url }}" style="text-decoration: none; font-size: 0.95rem; font-weight: normal;">
               {{ post.title }}
             </a>
-            <span style="color: #888; font-size: 0.85rem; margin-left: 10px;">
+            <span style="color: #888; font-size: 0.8rem; margin-left: 8px; display: inline-block;">
               — {{ post.date | date: "%B %d, %Y" }}
             </span>
           </li>
         {% endfor %}
       </ul>
+      
     </div>
   {% endfor %}
 </div>
