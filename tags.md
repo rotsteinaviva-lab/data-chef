@@ -14,8 +14,23 @@ Select a topic below to jump directly to its matching articles:
     {% assign tag_name = tag.first %}
     {% assign tag_posts = tag.last %}
     
-    <a href="#{{ tag_name | downcase | slugify }}" class="btn btn--info" style="margin: 20px 0; padding: 10px 0; display: flex; flex-wrap: wrap; gap: 10px;">
+   <!--> <a href="#{{ tag_name | downcase | slugify }}" class="btn btn--info" style="margin: 20px 0; padding: 10px 0; display: flex; flex-wrap: wrap; gap: 10px;">
       {{ tag_name }} <span style="opacity: 0.6; font-size: 1rem; margin-left: 3px;border-radius: 20px;">({{ tag_posts.size }})</span>
+    </a>
+  {% endfor %}
+</div>
+
+<hr style="margin: 40px 0;">-->
+
+<!-- 1. The Tag Cloud Container and Pills -->
+<div class="tag-cloud" style="margin: 20px 0; padding: 10px 0; display: flex; flex-wrap: wrap; gap: 10px;">
+  {% assign sorted_tags = site.tags | sort %}
+  {% for tag in sorted_tags %}
+    {% assign tag_name = tag.first %}
+    {% assign tag_posts = tag.last %}
+    
+    <a href="#{{ tag_name | downcase | slugify }}" class="btn btn--info" style="margin: 0; padding: 5px 12px; font-size: 0.85rem; border-radius: 20px;">
+      {{ tag_name }} <span style="opacity: 0.6; font-size: 0.75rem; margin-left: 3px;">({{ tag_posts.size }})</span>
     </a>
   {% endfor %}
 </div>
