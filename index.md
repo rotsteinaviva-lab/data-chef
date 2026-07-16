@@ -15,4 +15,4 @@ title: "Data Chef: Recipes for data wrangling, visualization, & more (sample ste
   {% endfor %}
 </div>
 
-**Did you attempt any projects?** *[Take the Data Chef survey](https://qualtricsxmmz3zzqb9x.qualtrics.com/jfe/form/SV_72Fa2DomIssjpn8) to help improve the learning tool.*
+***Did you attempt any projects?*** *[Take the Data Chef survey](https://qualtricsxmmz3zzqb9x.qualtrics.com/jfe/form/SV_72Fa2DomIssjpn8) to help improve the learning tool.*
