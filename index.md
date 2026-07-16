@@ -2,6 +2,9 @@
 layout: home
 title: "Data Chef: Recipes for data wrangling, visualization, & more (sample step-by-step projects)"
 ---
+
+***Did you attempt any projects?*** *[Take the Data Chef survey](https://qualtricsxmmz3zzqb9x.qualtrics.com/jfe/form/SV_72Fa2DomIssjpn8) to help improve the learning tool.*
+
 ### Browse Content by Topic
 
 <div class="tag-cloud" style="margin: 20px 0; padding: 10px 0; display: flex; flex-wrap: wrap; gap: 10px;">
@@ -15,4 +18,4 @@ title: "Data Chef: Recipes for data wrangling, visualization, & more (sample ste
   {% endfor %}
 </div>
 
-***Did you attempt any projects?*** *[Take the Data Chef survey](https://qualtricsxmmz3zzqb9x.qualtrics.com/jfe/form/SV_72Fa2DomIssjpn8) to help improve the learning tool.*
+
