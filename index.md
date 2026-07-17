@@ -3,7 +3,7 @@ layout: home
 title: "Data Chef: Recipes for data wrangling, visualization, & more (sample step-by-step projects)"
 ---
 
-*Did you attempt any projects?* *[Take the Data Chef survey](https://qualtricsxmmz3zzqb9x.qualtrics.com/jfe/form/SV_72Fa2DomIssjpn8) to help improve the learning tool.*
+> *Did you attempt any projects? [Take the Data Chef Feedback Survey](https://qualtricsxmmz3zzqb9x.qualtrics.com/jfe/form/SV_72Fa2DomIssjpn8)*
 
 ### Browse Content by Topic
 
