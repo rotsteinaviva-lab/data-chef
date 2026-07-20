@@ -92,7 +92,7 @@ City of Calgary. (2026, May 6). *Historical community populations* [Data set]. O
 
 City of Calgary. (2026). *Ward and community map*. [https://www.calgary.ca/council/mayor/wardmap.html](https://www.calgary.ca/council/mayor/wardmap.html)
 
-(Includes [Part 1]({{ site.baseurl }}{% post_url 2026-07-10-calgary-pop %}) References)
+(Includes [Part 1]({{ site.baseurl }}{% post_url 2026-07-10-calgary-pop %}) Datasets & References)
 
 ## Software 
 
