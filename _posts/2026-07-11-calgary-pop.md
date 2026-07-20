@@ -84,23 +84,25 @@ tags: [Tableau, Data Viz]
 
 {% include tableau-calgary.html %}
 
-## References 
+## Datasets & References
 
-City of Calgary. (2026, May 19). Community Sectors [Data set]. Open Calgary. [https://data.calgary.ca/Base-Maps/Community-Sectors/mz2j-7eb5/about_data](https://data.calgary.ca/Base-Maps/Community-Sectors/mz2j-7eb5/about_data)
+City of Calgary. (2026, May 19). *Community Sectors* [Data set]. Open Calgary. [https://data.calgary.ca/Base-Maps/Community-Sectors/mz2j-7eb5/about_data](https://data.calgary.ca/Base-Maps/Community-Sectors/mz2j-7eb5/about_data)
 
-City of Calgary. (2026, May 6). Historical community populations [Data set]. Open Calgary. [https://data.calgary.ca/Demographics/Historical-Calgary-Community-Populations/4mgk-hrwr](https://data.calgary.ca/Demographics/Historical-Calgary-Community-Populations/4mgk-hrwr)
+City of Calgary. (2026, May 6). *Historical community populations* [Data set]. Open Calgary. [https://data.calgary.ca/Demographics/Historical-Calgary-Community-Populations/4mgk-hrwr](https://data.calgary.ca/Demographics/Historical-Calgary-Community-Populations/4mgk-hrwr)
 
-City of Calgary. (2026). Ward and community map. [https://www.calgary.ca/council/mayor/wardmap.html](https://www.calgary.ca/council/mayor/wardmap.html)
+City of Calgary. (2026). *Ward and community map*. [https://www.calgary.ca/council/mayor/wardmap.html](https://www.calgary.ca/council/mayor/wardmap.html)
 
 (Includes [Part 1]({{ site.baseurl }}{% post_url 2026-07-10-calgary-pop %}) References)
 
 ## Software 
 
-Microsoft Corporation. (2026). Microsoft Excel 365 [Computer software]. [https://microsoft.com](https://microsoft.com)
+Google. (2026). *Gemini* (Version 3.5 Flash) [Large language model]. [https://gemini.google.com](https://gemini.google.com)
 
-OpenRefine. (2026). OpenRefine (Version 3.10.0) [Computer software]. [https://openrefine.org/](https://openrefine.org/)
+Microsoft Corporation. (2026). *Microsoft Excel 365* [Computer software]. [https://microsoft.com](https://microsoft.com)
 
-Tableau Software. (2025). Tableau Desktop (Version 2025.1.2) [Computer software]. [https://tableau.com](https://tableau.com)
+OpenRefine. (2026). *OpenRefine* (Version 3.10.0) [Computer software]. [https://openrefine.org/](https://openrefine.org/)
+
+Tableau Software. (2025). *Tableau Desktop* (Version 2025.1.2) [Computer software]. [https://tableau.com](https://tableau.com)
 
 (Includes [Part 1]({{ site.baseurl }}{% post_url 2026-07-10-calgary-pop %}) Software)
 
